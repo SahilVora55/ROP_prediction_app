@@ -9,7 +9,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from xgboost import XGBRegressor
 from sklearn.tree import DecisionTreeRegressor
-from tpot import TPOTRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 
 # Define the app
